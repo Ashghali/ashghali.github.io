@@ -50,7 +50,7 @@ function Form() {
     React.createElement("div", { className: "flex justify-between mt-8" }, /*#__PURE__*/
     React.createElement("button", {
       onClick: nextStep,
-      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u0628\u0632\u0631\u06AF"), /*#__PURE__*/
+      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u06A9\u0648\u0686\u06A9"), /*#__PURE__*/
 
 
 
