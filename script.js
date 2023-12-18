@@ -8,8 +8,13 @@ root.render( /*#__PURE__*/React.createElement(App, null));
 function App() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, /*#__PURE__*/
-    React.createElement("h1", null, "\u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0646\u0627\u067E\u062F\u06CC\u062F \u0645\u06CC \u06A9\u0646\u06CC\u0645"), /*#__PURE__*/
-    React.createElement(Form, null)));
+    React.createElement("h1", { className: "text-3xl" }, "\u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0646\u0627\u067E\u062F\u06CC\u062F \u0645\u06CC \u06A9\u0646\u06CC\u0645"), /*#__PURE__*/
+    React.createElement(Form, null), /*#__PURE__*/
+    React.createElement("div", null, /*#__PURE__*/
+    React.createElement("button", { className: "text-xl border bg-white text-black py-2 px-8 rounded-full" }, "\u0645\u0627 \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u0645\u061F"))));
+
+
+
 
 
 }
@@ -56,9 +61,12 @@ function Form() {
 
     React.createElement("button", {
       onClick: nextStep,
-      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u0628\u0632\u0631\u06AF"))),
+      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u0628\u0632\u0631\u06AF")), /*#__PURE__*/
 
 
+
+
+    React.createElement("div", { id: "dastres", className: "h-4 w-full rounded-lg mt-4" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
 
 
 
