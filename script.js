@@ -8,10 +8,8 @@ root.render( /*#__PURE__*/React.createElement(App, null));
 function App() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, /*#__PURE__*/
-    React.createElement("div", null, /*#__PURE__*/
     React.createElement("h1", { className: "text-3xl m-10" }, "\u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0646\u0627\u067E\u062F\u06CC\u062F \u0645\u06CC \u06A9\u0646\u06CC\u0645"), /*#__PURE__*/
-    React.createElement(Form, null)), /*#__PURE__*/
-
+    React.createElement(Form, null), /*#__PURE__*/
     React.createElement("div", null, /*#__PURE__*/
     React.createElement("div", { className: "text-xl text-black m-8" }, /*#__PURE__*/
     React.createElement("h4", null, "\u0645\u0627 \u062F\u0631 \u06A9\u0645\u062A\u0631\u06CC\u0646 \u0632\u0645\u0627\u0646 \u0648\u0627\u0631\u062F \u0648 \u062E\u0627\u0631\u062C \u062E\u0648\u0627\u0647\u06CC\u0645 \u0634\u062F \u062A\u0627 \u0628\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0647 \u0631\u0648\u0632 \u062E\u0648\u062F \u0627\u062F\u0627\u0645\u0647 \u062F\u0647\u06CC\u062F.")), /*#__PURE__*/
@@ -89,13 +87,10 @@ function Form() {
 
     step === 3 && /*#__PURE__*/
     React.createElement("div", null, /*#__PURE__*/
-    React.createElement("div", { className: "h-2 w-full rounded-lg mt-8" }, "\u0644\u0637\u0641\u0627 \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F."), /*#__PURE__*/
+    React.createElement("div", { className: "h-2 w-full rounded-lg mt-8" }, "\u0647\u0631\u0686\u0647 \u0645\u06CC \u062E\u0648\u0627\u0647\u06CC\u062F \u0628\u0628\u0631\u06CC\u0645 \u0641\u0647\u0631\u0633\u062A \u06A9\u0646\u06CC\u062F\u061B"), /*#__PURE__*/
 
 
-    React.createElement("input", { className: "border w-full rounded-lg mt-8" }), /*#__PURE__*/
-    React.createElement("div", { className: "h-4 w-full rounded-lg mt-4" }, "\u0628\u0631\u0631\u0633\u06CC \u06A9\u0646\u06CC\u0645 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633\u0647\u061F")),
-
-
+    React.createElement("textarea", { className: "border w-full rounded-lg mt-8" })),
 
 
     step === 4 && /*#__PURE__*/
