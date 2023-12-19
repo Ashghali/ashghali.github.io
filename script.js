@@ -35,21 +35,36 @@ function App() {
 
 function Form() {
   const [step, setStep] = useState(1);
+  const [error, setError] = useState("لطفاً حتما شماره تلفن وارد بفرمایید.");
 
   function nextStep() {
     if (step < 5) setStep(lastStep => lastStep + 1);
+    if (step == 5) {
+    }
   }
 
-  const [size, setSize] = useState(2);
-
+  const [size, setSize] = useState("");
   function darDastres() {
-
+    setSize("بزرگ");
+  }
+  function darDastresNist() {
+    setSize("کوچک");
   }
 
   function back() {
     if (step > 1) setStep(lastStep => lastStep - 1);
   }
+  const [cell, setCell] = useState("");
+  const [fehrest, setFehrest] = useState("");
 
+  function handleChange(e) {
+    var value = e.target.value;
+    setCell(value);
+  }
+  function handle3Change(e) {
+    var value = e.target.value;
+    setFehrest(value);
+  }
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white border p-6 rounded-2xl w-max" }, /*#__PURE__*/
     React.createElement("div", { className: "flex gap-8" }, /*#__PURE__*/
@@ -63,48 +78,82 @@ function Form() {
     React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0644\u0637\u0641\u0627\u064B \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F."), /*#__PURE__*/
 
 
-    React.createElement("input", { dir: "ltr", className: "border w-full rounded-lg mt-8" }), /*#__PURE__*/
+    React.createElement("input", {
+      onChange: handleChange,
+      dir: "ltr",
+      className: "border w-full rounded-lg mt-8" }), /*#__PURE__*/
+
     React.createElement("div", { className: "w-full rounded-lg mt-4" }, "\u0628\u0631\u0631\u0633\u06CC \u06A9\u0646\u06CC\u0645 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633\u0647\u061F")),
 
 
     step === 2 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: " w-full rounded-lg mt-8" }, "\u0686\u0642\u062F\u0631 \u0622\u0634\u063A\u0627\u0644 \u062F\u0627\u0631\u06CC\u062F\u061F"), /*#__PURE__*/
-    React.createElement("div", { className: "flex justify-between mt-8" }, /*#__PURE__*/
+    React.createElement("div", { className: "flex justify-between mb-16 m-8" },
+    size === "کوچک" && /*#__PURE__*/
     React.createElement("button", {
-      onClick: nextStep,
-      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u06A9\u0648\u0686\u06A9"), /*#__PURE__*/
+      onClick: darDastresNist,
+      className: "border bg-black text-white py-2 px-8 rounded-full" }, "\u06A9\u0648\u0686\u06A9"),
 
 
 
+
+    size === "کوچک" || /*#__PURE__*/
     React.createElement("button", {
-      onClick: nextStep,
-      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u0628\u0632\u0631\u06AF")), /*#__PURE__*/
+      onClick: darDastresNist,
+      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u06A9\u0648\u0686\u06A9"),
 
 
 
 
-    React.createElement("div", { id: "dastres", className: "h-4 w-full rounded-lg mt-4" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
+    size === "بزرگ" && /*#__PURE__*/
+    React.createElement("button", {
+      onClick: darDastres,
+      className: "border bg-black text-white py-2 px-8 rounded-full" }, "\u0628\u0632\u0631\u06AF"),
+
+
+
+
+    size === "بزرگ" || /*#__PURE__*/
+    React.createElement("button", {
+      onClick: darDastres,
+      className: "border bg-white text-black py-2 px-8 rounded-full" }, "\u0628\u0632\u0631\u06AF")),
+
+
+
+
+
+    size === "کوچک" && /*#__PURE__*/
+    React.createElement("div", { id: "dastres", className: "w-full rounded-lg mt-4" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
+
 
 
 
 
     step === 3 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
-    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0647\u0631\u0686\u0647 \u0645\u06CC \u062E\u0648\u0627\u0647\u06CC\u062F \u0628\u0628\u0631\u06CC\u0645 \u0641\u0647\u0631\u0633\u062A \u06A9\u0646\u06CC\u062F\u061B"), /*#__PURE__*/
+    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0647\u0631\u0686\u0647 \u0645\u06CC \u062E\u0648\u0627\u0647\u06CC\u062F \u0628\u0628\u0631\u06CC\u0645 \u0641\u0647\u0631\u0633\u062A \u06A9\u0646\u06CC\u062F:"), /*#__PURE__*/
 
 
-    React.createElement("textarea", { className: "border w-full rounded-lg mt-8" })),
+    React.createElement("textarea", {
+      onChange: handle3Change,
+      className: "border w-full rounded-lg mt-8" })),
+
 
 
     step === 4 && /*#__PURE__*/React.createElement("div", { className: "text-xl" }),
-    step === 5 && /*#__PURE__*/
+    step === 5 && error === "" && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u0644\u0637\u0641\u0627\u064B \u0645\u0637\u0645\u0626\u0646 \u0634\u0648\u06CC\u062F \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u06A9\u0647 \u062F\u0631"), /*#__PURE__*/
 
 
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u0645\u0631\u062D\u0644\u0647 \u06CC\u06A9 \u0648\u0627\u0631\u062F \u06A9\u0631\u062F\u0647 \u0627\u06CC\u062F \u062F\u0631\u0633\u062A \u0627\u0633\u062A"), /*#__PURE__*/
-    React.createElement("div", { className: "rounded-lg mt-4" }, "\u0686\u0631\u0627\u06A9\u0647 \u0645\u0627 \u0628\u0647 \u0634\u0645\u0627 \u0632\u0646\u06AF \u0645\u06CC \u0632\u0646\u06CC\u0645.")), /*#__PURE__*/
+    React.createElement("div", { className: "rounded-lg mt-4" }, "\u0686\u0631\u0627\u06A9\u0647 \u0645\u0627 \u0628\u0647 \u0634\u0645\u0627 \u0632\u0646\u06AF \u0645\u06CC \u0632\u0646\u06CC\u0645.")),
+
+
+    step === 5 && error && /*#__PURE__*/
+    React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
+    React.createElement("div", { className: "rounded-lg mt-16 mb-16" }, error)), /*#__PURE__*/
 
 
 
