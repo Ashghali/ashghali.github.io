@@ -81,7 +81,7 @@ function Form() {
       setError("بردنی ها را فهرست کنید تا ما در خدمت باشیم.");
       if (cell === "") setError("لطفاً حتما شماره تلفن وارد بفرمایید.");
     }
-    sendEmail();
+    if (cell) sendEmail();
   }
 
   function darDastres() {
