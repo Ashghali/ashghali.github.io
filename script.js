@@ -33,10 +33,10 @@ function App() {
     React.createElement("img", {
       src: "https://ashghali.co/qr.png",
       width: "128px",
-      height: "128px" }), "v0.9.7")));
+      height: "128px" })), /*#__PURE__*/
 
 
-
+    React.createElement("div", { className: "m-8" }, "v0.9.7")));
 
 
 }
