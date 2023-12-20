@@ -44,6 +44,7 @@ function App() {
 function Form() {
   const [step, setStep] = useState(1);
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
   const [cell, setCell] = useState("");
   const [fehrest, setFehrest] = useState("");
   const [address, setAddress] = useState("");
@@ -67,7 +68,10 @@ function Form() {
 
 
     const result = await response.text();
-    console.log(result);
+    if (result === "Hello Stranger!" && step == 5) {
+      setSuccess("سفارش شما با موفقیت دریافت شد.");
+    }
+    console.log(success);
   }
 
   function nextStep() {
@@ -193,7 +197,7 @@ function Form() {
 
 
 
-    step === 5 && error === "" && /*#__PURE__*/
+    step === 5 && error === "" && success === "" && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u0644\u0637\u0641\u0627\u064B \u0645\u0637\u0645\u0626\u0646 \u0634\u0648\u06CC\u062F \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u06A9\u0647 \u062F\u0631"), /*#__PURE__*/
 
@@ -204,7 +208,12 @@ function Form() {
 
     step === 5 && error && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
-    React.createElement("div", { className: "rounded-lg mt-16 mb-16" }, error)), /*#__PURE__*/
+    React.createElement("div", { className: "rounded-lg mt-16 mb-16" }, error)),
+
+
+    step === 5 && error === "" && success && /*#__PURE__*/
+    React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
+    React.createElement("div", { className: "rounded-lg mt-16 mb-16" }, success)), /*#__PURE__*/
 
 
 
