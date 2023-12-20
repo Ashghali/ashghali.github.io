@@ -7,7 +7,7 @@ root.render( /*#__PURE__*/React.createElement(App, null));
 
 function App() {
   return /*#__PURE__*/(
-    React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, "v0.9.4", /*#__PURE__*/
+    React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, "v0.9.5", /*#__PURE__*/
 
     React.createElement("h1", { className: "text-2xl m-10" }, "\u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0646\u0627\u067E\u062F\u06CC\u062F \u0645\u06CC \u06A9\u0646\u06CC\u0645"), /*#__PURE__*/
     React.createElement(Form, null), /*#__PURE__*/
@@ -47,16 +47,17 @@ function Form() {
   const [cell, setCell] = useState("");
   const [fehrest, setFehrest] = useState("");
   const [address, setAddress] = useState("");
+  const [size, setSize] = useState("");
 
   async function sendEmail() {
+    console.log(cell);
     const response = await fetch(
     "https://faas-sgp1-18bc02ac.doserverless.co/api/v1/web/fn-06fa1b86-de54-43ca-8531-fb3d4329867d/default/update",
     {
       method: "POST",
       body: JSON.stringify({
-        name: "kia",
-        cel: cell,
-        fehrest: "fehrest",
+        cell: cell,
+        fehrest: fehrest,
         Tsize: size,
         address: address }),
 
@@ -79,7 +80,6 @@ function Form() {
     sendEmail();
   }
 
-  const [size, setSize] = useState("");
   function darDastres() {
     setSize("بزرگ");
   }
@@ -90,7 +90,6 @@ function Form() {
   function back() {
     if (step > 1) setStep(lastStep => lastStep - 1);
   }
-
 
   function handleChange(e) {
     var value = e.target.value;
