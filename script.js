@@ -13,7 +13,7 @@ function App() {
     React.createElement(Form, null), /*#__PURE__*/
     React.createElement("div", null, /*#__PURE__*/
     React.createElement("div", { className: "text-l text-black m-8" }, /*#__PURE__*/
-    React.createElement("h4", null, "\u0645\u0627 \u062F\u0631 \u06A9\u0645\u062A\u0631\u06CC\u0646 \u0632\u0645\u0627\u0646 \u0648\u0627\u0631\u062F \u0648 \u062E\u0627\u0631\u062C \u062E\u0648\u0627\u0647\u06CC\u0645 \u0634\u062F \u062A\u0627 \u0628\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0647 \u0631\u0648\u0632 \u062E\u0648\u062F \u0627\u062F\u0627\u0645\u0647 \u062F\u0647\u06CC\u062F.")), /*#__PURE__*/
+    React.createElement("h4", null, "\u0645\u0627 \u062F\u0631 \u06A9\u0645\u062A\u0631\u06CC\u0646 \u0632\u0645\u0627\u0646 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u062E\u0627\u0631\u062C \u062E\u0648\u0627\u0647\u06CC\u0645 \u06A9\u0631\u062F \u062A\u0627 \u0628\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0647 \u0631\u0648\u0632 \u062E\u0648\u062F \u0627\u062F\u0627\u0645\u0647 \u062F\u0647\u06CC\u062F.")), /*#__PURE__*/
 
 
 
@@ -165,8 +165,6 @@ function Form() {
     step === 4 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644:"), /*#__PURE__*/
-
-
     React.createElement("textarea", {
       onChange: handleAddressChange,
       className: "border w-full rounded-lg mt-8",
