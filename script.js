@@ -67,6 +67,8 @@ function Form() {
   }
   const [cell, setCell] = useState("");
   const [fehrest, setFehrest] = useState("");
+  const [address, setAddress] = useState("");
+  const [tarikh, setTarikh] = useState(new Date());
 
   function handleChange(e) {
     var value = e.target.value;
@@ -77,6 +79,10 @@ function Form() {
     var value = e.target.value;
     setFehrest(value);
     setError("");
+  }
+  function handleAddressChange(e) {
+    var value = e.target.value;
+    setAddress(value);
   }
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white border p-6 rounded-2xl w-max" }, /*#__PURE__*/
@@ -156,7 +162,18 @@ function Form() {
 
 
 
-    step === 4 && /*#__PURE__*/React.createElement("div", { className: "text-xl" }),
+    step === 4 && /*#__PURE__*/
+    React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
+    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644:"), /*#__PURE__*/
+
+
+    React.createElement("textarea", {
+      onChange: handleAddressChange,
+      className: "border w-full rounded-lg mt-8",
+      placeHolder: address })),
+
+
+
     step === 5 && error === "" && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u0644\u0637\u0641\u0627\u064B \u0645\u0637\u0645\u0626\u0646 \u0634\u0648\u06CC\u062F \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u06A9\u0647 \u062F\u0631"), /*#__PURE__*/
