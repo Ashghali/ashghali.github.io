@@ -33,7 +33,7 @@ function App() {
     React.createElement("img", {
       src: "https://ashghali.co/qr.png",
       width: "128px",
-      height: "128px" }), "v0.9.6")));
+      height: "128px" }), "v0.9.7")));
 
 
 
