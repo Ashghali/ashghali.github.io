@@ -45,6 +45,27 @@ function Form() {
   const [step, setStep] = useState(1);
   const [error, setError] = useState("");
 
+  async function sendEmail() {
+    const response = await fetch(
+    "https://faas-sgp1-18bc02ac.doserverless.co/api/v1/web/fn-06fa1b86-de54-43ca-8531-fb3d4329867d/default/update",
+    {
+      method: "POST",
+      body: JSON.stringify({
+        name: "kia",
+        cel: cell,
+        fehrest: fehrest,
+        size: size,
+        address: address }),
+
+      headers: {
+        "Content-Type": "application/json" } });
+
+
+
+    const result = await response.text();
+    console.log(result);
+  }
+
   function nextStep() {
     if (step < 5) setStep(lastStep => lastStep + 1);
     if (step == 5) {
@@ -52,6 +73,7 @@ function Form() {
       setError("بردنی ها را فهرست کنید تا ما در خدمت باشیم.");
       if (cell === "") setError("لطفاً حتما شماره تلفن وارد بفرمایید.");
     }
+    sendEmail();
   }
 
   const [size, setSize] = useState("");
