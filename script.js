@@ -68,7 +68,7 @@ function Form() {
 
 
     const result = await response.text();
-    if (result === "Hello Stranger!" && step == 5) {
+    if (result === "Hello Stranger!" && step == 5 && cell) {
       setSuccess("سفارش شما با موفقیت دریافت شد.");
     }
     console.log(success);
