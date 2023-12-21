@@ -25,7 +25,12 @@ function App() {
 
 
     React.createElement("div", { className: "mt-10" }, /*#__PURE__*/
-    React.createElement("button", { className: "text-xl border bg-white text-black py-2 px-8 rounded-full" }, "\u0645\u0627 \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u0645\u061F")), /*#__PURE__*/
+    React.createElement("a", {
+      className: "text-xl border bg-white text-black py-2 px-8 rounded-full",
+      href: "https://ashghali.co/%D8%A2%D8%B4%D8%BA%D8%A7%D9%84%DB%8C",
+      target: "_blank",
+      rel: "noreferrer" }, "\u0645\u0627 \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u0645\u061F")), /*#__PURE__*/
+
 
 
 
