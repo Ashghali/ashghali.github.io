@@ -41,7 +41,7 @@ function App() {
       height: "128px" })), /*#__PURE__*/
 
 
-    React.createElement("div", { className: "m-8" }, "v0.9.7")));
+    React.createElement("div", { className: "m-8" }, "v1.0.1")));
 
 
 }
@@ -174,7 +174,7 @@ function Form() {
 
 
     size === "کوچک" && /*#__PURE__*/
-    React.createElement("div", { id: "dastres", className: "w-full rounded-lg mt-4" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
+    React.createElement("div", { id: "dastres", className: "" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
 
 
 
