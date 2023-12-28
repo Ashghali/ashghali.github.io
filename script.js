@@ -9,6 +9,16 @@ function App() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, /*#__PURE__*/
     React.createElement("h1", { className: "text-2xl m-10" }, "\u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0646\u0627\u067E\u062F\u06CC\u062F \u0645\u06CC \u06A9\u0646\u06CC\u0645"), /*#__PURE__*/
+    React.createElement("div", { className: "m-10 mt-0" }, /*#__PURE__*/
+    React.createElement("a", {
+      className: "text-xl border bg-white text-black py-2 px-8 rounded-full",
+      href: "https://ashghali.co/%D8%A2%D8%B4%D8%BA%D8%A7%D9%84%DB%8C",
+      target: "_blank",
+      rel: "noreferrer" }, "\u0645\u0627 \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u0645\u061F")), /*#__PURE__*/
+
+
+
+
     React.createElement(Form, null), /*#__PURE__*/
     React.createElement("div", null, /*#__PURE__*/
     React.createElement("div", { className: "text-l text-black m-8" }, /*#__PURE__*/
@@ -22,15 +32,6 @@ function App() {
 
     React.createElement("div", { className: "text-l text-black m-8" }, /*#__PURE__*/
     React.createElement("h4", null, "\u0645\u0627 \u062E\u062F\u0645\u0627\u062A \u06CC\u06A9 \u0631\u0648\u0632\u0647 \u0627\u0631\u0627\u0626\u0647 \u0645\u06CC \u062F\u0647\u06CC\u0645!"))), /*#__PURE__*/
-
-
-    React.createElement("div", { className: "mt-10" }, /*#__PURE__*/
-    React.createElement("a", {
-      className: "text-xl border bg-white text-black py-2 px-8 rounded-full",
-      href: "https://ashghali.co/%D8%A2%D8%B4%D8%BA%D8%A7%D9%84%DB%8C",
-      target: "_blank",
-      rel: "noreferrer" }, "\u0645\u0627 \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u0645\u061F")), /*#__PURE__*/
-
 
 
 
