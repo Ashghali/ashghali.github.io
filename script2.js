@@ -28,7 +28,7 @@ function App() {
     React.createElement("div", { className: "m-8" }, /*#__PURE__*/
     React.createElement("img", {
       src: "https://ashghali.co/qr.png",
-      width: "128px",
+      width: "114px",
       height: "128px" })), /*#__PURE__*/
 
 
