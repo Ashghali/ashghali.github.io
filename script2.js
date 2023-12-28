@@ -28,11 +28,12 @@ function App() {
     React.createElement("div", { className: "m-8" }, /*#__PURE__*/
     React.createElement("img", {
       src: "https://ashghali.co/qr.jpeg",
-      width: "114px",
-      height: "128px" })), /*#__PURE__*/
+      width: "313px",
+      height: "353px" })), /*#__PURE__*/
 
 
-    React.createElement("div", { className: "m-8" }, "v1.0.3")));
+    React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
+    React.createElement("div", { className: "m-8" }, "v1.1.1")));
 
 
 }
