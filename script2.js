@@ -27,12 +27,12 @@ function App() {
     React.createElement(Form, null), /*#__PURE__*/
     React.createElement("div", { className: "m-8" }, /*#__PURE__*/
     React.createElement("img", {
-      src: "https://ashghali.co/qr.png",
+      src: "https://ashghali.co/qr.jpeg",
       width: "114px",
       height: "128px" })), /*#__PURE__*/
 
 
-    React.createElement("div", { className: "m-8" }, "v1.0.2")));
+    React.createElement("div", { className: "m-8" }, "v1.0.3")));
 
 
 }
