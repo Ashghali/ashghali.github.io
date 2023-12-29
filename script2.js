@@ -9,7 +9,7 @@ function App() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, /*#__PURE__*/
     React.createElement("div", { className: "text-xl " }, /*#__PURE__*/
-    React.createElement("div", { className: "text-2xl justify-self-start" }, "\u0645\u0627 \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u0645\u061F"), /*#__PURE__*/
+    React.createElement("div", { className: "text-3xl justify-self-start" }, "\u0622\u0634\u063A\u0627\u0644\u06CC \u0686\u06CC \u0645\u06CC \u0628\u0631\u062F\u061F"), /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u062C\u0645\u0639 \u0622\u0648\u0631\u06CC \u0633\u0631\u06CC\u0639 \u062A\u0642\u0631\u06CC\u0628\u0627\u064B \u0647\u0631"), /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, " \u0686\u06CC\u0632\u06CC \u06A9\u0647 \u062E\u0637\u0631\u0646\u0627\u06A9 \u0646\u0628\u0627\u0634\u062F. "), /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u0645\u0648\u0627\u0631\u062F \u0631\u0627\u06CC\u062C\u06CC \u06A9\u0647 \u0645\u06CC \u0628\u0631\u06CC\u0645:")), /*#__PURE__*/
