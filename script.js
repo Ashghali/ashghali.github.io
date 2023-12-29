@@ -33,7 +33,7 @@ function App() {
 
 
     React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
-    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.2.1")));
+    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC")));
 
 
 }

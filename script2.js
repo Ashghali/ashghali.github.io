@@ -25,15 +25,9 @@ function App() {
     React.createElement("div", { className: "text-xl m-8" }, "\u0628\u0631\u0627\u06CC \u0646\u0627\u067E\u062F\u06CC\u062F \u0634\u062F\u0646 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0622\u0645\u0627\u062F\u0647 \u0627\u06CC\u062F\u061F"), /*#__PURE__*/
 
     React.createElement(Form, null), /*#__PURE__*/
-    React.createElement("div", { className: "m-8" }, /*#__PURE__*/
-    React.createElement("img", {
-      src: "https://ashghali.co/qr.jpeg",
-      width: "313px",
-      height: "353px" })), /*#__PURE__*/
 
-
-    React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
-    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.1.4")));
+    React.createElement("div", { className: "text-l m-8" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
+    React.createElement("div", { className: "" }, "\u0622\u0634\u063A\u0627\u0644\u06CC")));
 
 
 }
@@ -185,7 +179,7 @@ function Form() {
 
     step === 4 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
-    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644:"), /*#__PURE__*/
+    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644 \u0628\u0631\u0627\u06CC \u0648\u0627\u0646\u062A:"), /*#__PURE__*/
     React.createElement("textarea", {
       onChange: handleAddressChange,
       className: "border w-full rounded-lg mt-8",
