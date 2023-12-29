@@ -33,7 +33,7 @@ function App() {
 
 
     React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
-    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.1.3")));
+    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.1.4")));
 
 
 }
@@ -168,7 +168,7 @@ function Form() {
 
 
     size === "کوچک" && /*#__PURE__*/
-    React.createElement("div", { id: "dastres", className: "text-base" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
+    React.createElement("div", { id: "dastres", className: "text-sm" }, "\u062F\u0631 \u062D\u0627\u0644 \u062D\u0627\u0636\u0631 \u0627\u06CC\u0646 \u0633\u0631\u0648\u06CC\u0633 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633 \u0646\u0645\u06CC \u0628\u0627\u0634\u062F.")),
 
 
 
