@@ -20,7 +20,6 @@ function App() {
 
 
     React.createElement(Form, null), /*#__PURE__*/
-    React.createElement("div", null, /*#__PURE__*/
     React.createElement("div", { className: "text-l text-black m-8" }, /*#__PURE__*/
     React.createElement("h4", null, "\u0645\u0627 \u062F\u0631 \u06A9\u0645\u062A\u0631\u06CC\u0646 \u0632\u0645\u0627\u0646 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u062E\u0627\u0631\u062C \u062E\u0648\u0627\u0647\u06CC\u0645 \u06A9\u0631\u062F \u062A\u0627 \u0628\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0647 \u0631\u0648\u0632 \u062E\u0648\u062F \u0627\u062F\u0627\u0645\u0647 \u062F\u0647\u06CC\u062F.")), /*#__PURE__*/
 
@@ -31,8 +30,7 @@ function App() {
     React.createElement("h4", null, "\u0628\u0631\u0622\u0648\u0631\u062F \u0642\u06CC\u0645\u062A \u0631\u0627\u06CC\u06AF\u0627\u0646 \u062F\u0631 \u0645\u062D\u0644.")), /*#__PURE__*/
 
     React.createElement("div", { className: "text-l text-black m-8" }, /*#__PURE__*/
-    React.createElement("h4", null, "\u0645\u0627 \u062E\u062F\u0645\u0627\u062A \u06CC\u06A9 \u0631\u0648\u0632\u0647 \u0627\u0631\u0627\u0626\u0647 \u0645\u06CC \u062F\u0647\u06CC\u0645!"))), /*#__PURE__*/
-
+    React.createElement("h4", null, "\u0645\u0627 \u062E\u062F\u0645\u0627\u062A \u06CC\u06A9 \u0631\u0648\u0632\u0647 \u0627\u0631\u0627\u0626\u0647 \u0645\u06CC \u062F\u0647\u06CC\u0645!")), /*#__PURE__*/
 
 
     React.createElement("div", { className: "m-8" }, /*#__PURE__*/
@@ -43,7 +41,7 @@ function App() {
 
 
     React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
-    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.1.4")));
+    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.2.1")));
 
 
 }
@@ -195,7 +193,7 @@ function Form() {
 
     step === 4 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
-    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644:"), /*#__PURE__*/
+    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644 \u0628\u0631\u0627\u06CC \u0648\u0627\u0646\u062A:"), /*#__PURE__*/
     React.createElement("textarea", {
       onChange: handleAddressChange,
       className: "border w-full rounded-lg mt-8",
