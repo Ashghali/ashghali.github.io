@@ -130,7 +130,7 @@ function Form() {
     step === 2 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: " w-full rounded-lg mt-8" }, "\u0686\u0642\u062F\u0631 \u0622\u0634\u063A\u0627\u0644 \u062F\u0627\u0631\u06CC\u062F\u061F"), /*#__PURE__*/
-    React.createElement("div", { className: "flex justify-between mb-16 m-8" },
+    React.createElement("div", { className: "flex justify-between mb-\u06F8 m-8" },
     size === "کوچک" && /*#__PURE__*/
     React.createElement("button", {
       onClick: darDastresNist,
