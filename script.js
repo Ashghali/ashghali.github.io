@@ -14,7 +14,7 @@ function App() {
       className: "text-xl border bg-white text-black py-2 px-8 rounded-full",
       href: "https://ashghali.co/%D8%A2%D8%B4%D8%BA%D8%A7%D9%84%DB%8C",
       target: "_blank",
-      rel: "help" }, "\u0622\u0634\u063A\u0627\u0644\u06CC \u0686\u06CC \u0645\u06CC \u0628\u0631\u06CC\u062F\u061F")), /*#__PURE__*/
+      rel: "help" }, "\u0622\u0634\u063A\u0627\u0644\u06CC \u0686\u06CC \u0645\u06CC \u0628\u0631\u062F\u061F")), /*#__PURE__*/
 
 
 
