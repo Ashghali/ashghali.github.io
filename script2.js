@@ -123,10 +123,7 @@ function Form() {
       onChange: handleChange,
       dir: "ltr",
       className: "border w-full rounded-lg mt-8",
-      placeHolder: cell }), /*#__PURE__*/
-
-    React.createElement("div", { className: "w-full rounded-lg mt-4" }, "\u0628\u0631\u0631\u0633\u06CC \u06A9\u0646\u06CC\u0645 \u0622\u0634\u063A\u0627\u0644\u06CC \u062F\u0631 \u062F\u0633\u062A\u0631\u0633\u0647\u061F")),
-
+      placeHolder: cell })),
 
 
 
