@@ -42,8 +42,8 @@ function App() {
       height: "353px" })), /*#__PURE__*/
 
 
-    React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647 \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
-    React.createElement("div", { className: "m-8" }, "v1.1.1")));
+    React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u064F \u062A\u0647\u0631\u0627\u0646"), /*#__PURE__*/
+    React.createElement("div", { className: "m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC v1.1.2")));
 
 
 }
@@ -135,7 +135,9 @@ function Form() {
       className: "border w-full rounded-lg mt-8",
       placeHolder: cell }), /*#__PURE__*/
 
-    React.createElement("div", { className: "w-full rounded-lg mt-4" }, "\u0628\u0631\u0631\u0633\u06CC \u06A9\u0646\u06CC\u0645 \u062F\u0631 \u062F\u0633\u062A\u0631\u0633\u0647\u061F")),
+    React.createElement("div", { className: "w-full rounded-lg mt-4" }, "\u0628\u0631\u0631\u0633\u06CC \u06A9\u0646\u06CC\u0645 \u0622\u0634\u063A\u0627\u0644\u06CC \u062F\u0631 \u062F\u0633\u062A\u0631\u0633\u0647\u061F")),
+
+
 
 
     step === 2 && /*#__PURE__*/
