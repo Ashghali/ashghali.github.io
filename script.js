@@ -214,8 +214,8 @@ function Form() {
 
 
     React.createElement("div", { className: "flex justify-between mt-8" }, /*#__PURE__*/
-    React.createElement("button", { className: "text-gray-700", onClick: back }, "\u0642\u0628\u0644\u06CC"), /*#__PURE__*/
-
+    React.createElement("button", { className: "text-gray-700", onClick: back },
+    step === 1 ? "" : "قبلی"), /*#__PURE__*/
 
     React.createElement("button", {
       onClick: nextStep,
