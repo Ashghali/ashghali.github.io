@@ -109,7 +109,7 @@ function Form() {
 
     step === 1 && /*#__PURE__*/
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
-    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0644\u0637\u0641\u0627\u064B \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F."), /*#__PURE__*/
+    React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0644\u0637\u0641\u0627\u064B \u0634\u0645\u0627\u0631\u0647 \u062A\u0644\u0641\u0646 \u0628\u0641\u0631\u0645\u0627\u06CC\u06CC\u062F."), /*#__PURE__*/
 
 
     React.createElement("input", {
