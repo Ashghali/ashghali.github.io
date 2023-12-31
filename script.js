@@ -19,8 +19,8 @@ function App() {
 
 
 
-    React.createElement("div", { className: "text-xl text-black m-8" }, "\u0622\u06CC\u0627 \u0645\u06CC \u062E\u0648\u0627\u0647\u06CC\u062F \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0627\u0632 \u062E\u0627\u0646\u0647 \u0628\u0628\u0631\u06CC\u0645\u061F",
-    " "), /*#__PURE__*/
+    React.createElement("div", { className: "text-xl text-black m-8" }, "\u0622\u06CC\u0627 \u0645\u06CC \u062E\u0648\u0627\u0647\u06CC\u062F \u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0631\u0627 \u0627\u0632 \u062E\u0627\u0646\u0647 \u0628\u0628\u0631\u06CC\u0645\u061F"), /*#__PURE__*/
+
 
     React.createElement(Form, null), /*#__PURE__*/
     React.createElement("div", null, /*#__PURE__*/
