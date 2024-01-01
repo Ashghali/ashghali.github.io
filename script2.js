@@ -113,7 +113,6 @@ function Form() {
 
 
     React.createElement("input", {
-      autoFocus: true,
       type: "tel",
       onChange: handleChange,
       dir: "ltr",
