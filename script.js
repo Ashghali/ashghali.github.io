@@ -120,6 +120,8 @@ function Form() {
 
 
     React.createElement("input", {
+      autoFocus: true,
+      type: "tel",
       onChange: handleChange,
       dir: "ltr",
       className: "border w-full rounded-lg mt-8",
@@ -177,9 +179,11 @@ function Form() {
 
 
     React.createElement("textarea", {
+      autoFocus: true,
       onChange: handle3Change,
       className: "border w-full rounded-lg mt-8",
-      placeHolder: fehrest })),
+      placeHolder: fehrest,
+      wrap: "soft" })),
 
 
 
@@ -187,9 +191,11 @@ function Form() {
     React.createElement("div", { className: "text-xl" }, /*#__PURE__*/
     React.createElement("div", { className: "w-full rounded-lg mt-8" }, "\u0622\u062F\u0631\u0633 \u06A9\u0627\u0645\u0644 \u0628\u0631\u0627\u06CC \u0648\u0627\u0646\u062A:"), /*#__PURE__*/
     React.createElement("textarea", {
+      autoFocus: true,
       onChange: handleAddressChange,
       className: "border w-full rounded-lg mt-8",
-      placeHolder: address })),
+      placeHolder: address,
+      wrap: "soft" })),
 
 
 
