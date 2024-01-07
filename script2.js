@@ -26,7 +26,7 @@ function App() {
 
     React.createElement(Form, null), /*#__PURE__*/
 
-    React.createElement("div", { className: "text-l m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC \u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646")));
+    React.createElement("div", { className: "text-l m-8" }, "\u0622\u0634\u063A\u0627\u0644\u06CC \u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646 \u0648 \u062A\u0628\u0631\u06CC\u0632")));
 
 
 }

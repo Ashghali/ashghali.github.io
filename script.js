@@ -9,6 +9,7 @@ function App() {
   return /*#__PURE__*/(
     React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, /*#__PURE__*/
     React.createElement("div", { className: "text-2xl m-10" }, "\u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0647\u0627 \u0631\u0627 \u0646\u0627\u067E\u062F\u06CC\u062F \u0645\u06CC \u06A9\u0646\u06CC\u0645"), /*#__PURE__*/
+
     React.createElement(Form, null), /*#__PURE__*/
     React.createElement("div", { className: "text-xl text-black m-8" }, "\u0622\u06CC\u0627 \u0645\u06CC \u062E\u0648\u0627\u0647\u06CC\u062F \u0645\u0627 \u0622\u0634\u063A\u0627\u0644 \u0631\u0627 \u0627\u0632 \u062E\u0627\u0646\u0647 \u0628\u0628\u0631\u06CC\u0645\u061F"), /*#__PURE__*/
 
@@ -35,7 +36,7 @@ function App() {
 
 
     React.createElement("div", { className: "text-l" }, "\u0622\u0634\u063A\u0627\u0644\u06CC"), /*#__PURE__*/
-    React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646")));
+    React.createElement("div", { className: "text-l" }, "\u0645\u062D\u062F\u0648\u062F\u0647\u0654 \u062A\u0647\u0631\u0627\u0646 \u0648 \u062A\u0628\u0631\u06CC\u0632")));
 
 
 }
