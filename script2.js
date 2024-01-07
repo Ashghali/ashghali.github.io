@@ -7,7 +7,7 @@ root.render( /*#__PURE__*/React.createElement(App, null));
 
 function App() {
   return /*#__PURE__*/(
-    React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full" }, /*#__PURE__*/
+    React.createElement("div", { className: "bg-white grid place-items-center min-h-screen w-full pb-40" }, /*#__PURE__*/
     React.createElement("div", { className: "text-xl " }, /*#__PURE__*/
     React.createElement("div", { className: "text-3xl justify-self-start" }, "\u0622\u0634\u063A\u0627\u0644\u06CC \u0686\u06CC \u0645\u06CC \u0628\u0631\u062F\u061F"), /*#__PURE__*/
     React.createElement("div", { className: "rounded-lg mt-4" }, "\u062C\u0645\u0639 \u0622\u0648\u0631\u06CC \u0633\u0631\u06CC\u0639 \u062A\u0642\u0631\u06CC\u0628\u0627\u064B \u0647\u0631"), /*#__PURE__*/
